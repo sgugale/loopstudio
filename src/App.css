@@ -1,0 +1,23 @@
+.header{
+  background-image: url("./images/image-hero.jpg");
+  height: 100vh;
+}
+
+.tagline-box{
+  border: 1px solid white;
+  color: white;
+  font-size: 8vh;
+  font-family: 'Josefin Sans', sans-serif;
+  width: 60%;
+  padding: 5vw;
+  margin-left: 10vw;
+  margin-top: 20vh;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .tagline-box {
+      width: 30%;
+      padding: 2vw;
+  }
+}
