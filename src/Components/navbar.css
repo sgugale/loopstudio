@@ -1,0 +1,57 @@
+/* Elements */
+li {
+    padding: 10px 0;
+  }
+  
+  .hamburger-button {
+    font-size: 30px;
+    margin-right: 30px;
+    color: white;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    float: right;
+    margin-top: 10vh;
+  }
+  
+  /* Class */
+  .navBar {
+    color: white;
+  }
+  
+.navbar-links {
+  height: 0;
+  float: right; 
+  font-size: 2vh;
+  font-family: 'Alata', sans-serif;
+  list-style-type: none;
+  margin-top: 10vh;
+  margin-right: 10vw;
+  overflow: hidden;
+  }
+
+  .logo{
+      margin-top: 10vh;
+      margin-left: 10vw;
+  }
+  
+  .show-nav {
+    height: 80vh;
+  }
+  
+  /* Media screen size */
+  @media screen and (min-width: 768px) {
+    .hamburger-button {
+        display: none;
+    }
+  
+    .navbar-links {
+        height: auto;
+        display: flex;
+    }
+  
+    li {
+        padding: 0 15px;
+    }
+  }
